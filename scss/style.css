@@ -1,29 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
-  padding: 0;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
-.hello {
-  background-color: black;
-  height: 100vh;
-  overflow: hidden;
+body {
+  background-image: url("https://media.giphy.com/media/9Q2peBQDRMdxVlqIaN/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
-img {
-  position: absolute;
-  display: block;
-  top: 500px;
-  left: 600px;
-  z-index: 3;
+header {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 4rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
-
-h1 {
-  position: absolute;
-  color: white;
-  font-size: 30rem;
-  z-index: 2;
-  background: rgb(157, 74, 179);
-  background: linear-gradient(90deg, rgb(157, 74, 179) 0%, rgb(226, 144, 240) 54%, rgb(255, 116, 174) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+header i {
+  color: #edf0f1;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+header li,
+header a,
+header button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  list-style-type: none;
+}
+header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+header .nav-links li a {
+  transition: all 0.3 ease 0s;
+}
+header .nav-links li a:hover {
+  color: #0088a9;
+}
+header button {
+  padding: 9px 25px;
+  background-color: rgb(0, 136, 169);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+}
+header button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
 }/*# sourceMappingURL=style.css.map */
