@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.hello {
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  display: block;
+  top: 500px;
+  left: 600px;
+  z-index: 3;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  font-size: 30rem;
+  z-index: 2;
+  background: rgb(157, 74, 179);
+  background: linear-gradient(90deg, rgb(157, 74, 179) 0%, rgb(226, 144, 240) 54%, rgb(255, 116, 174) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}/*# sourceMappingURL=style.css.map */
